@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Roboto';
+  }
+  
+  .row {
+      display: flex;
+      flex-direction: row;
+  }
+  .column {
+      display: flex;
+      flex-direction: column;
+  }
+  .jcc {
+      justify-content: center;
+  }
+  .jcsb {
+      justify-content: space-between;
+  }
+  .jcsa {
+      justify-content: space-around;
+  }
+  .jcfs {
+      justify-content: flex-start;
+  }
+  .jcfe {
+      justify-content: flex-end;
+  }
+  .aic {
+      align-items: center;
+  }
+  .aifs {
+      align-items: flex-start;
+  }
+  .aife {
+      align-items: flex-end;
+  }
+  .hidden {
+      display: none;
+  }
+  ul, li {
+    list-style-type: none;
+  }
+  a {
+      text-decoration: none;
+  }
+.stopwatch {
+    height: 100vh;
+    background-color: #285f99;
+}
+.p{
+    background-color: #285f99;   
+}
+.col{
+    color:#c6b241
+}
+.center {
+    text-align: center;
+  }
+.down{
+    padding-bottom: 20px;
+}
+.up{
+    padding-top: 20px;
+}
+.big{
+    font-size: 20px;
+}
+
+.container{
+    width: 800px;
+    min-height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 35px 2px rgb(45, 29, 70);
+}
+.time{
+    min-width: 550px;
+    min-height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    font-size: 60px;
+}
+.inerval{
+    width: 70px;
+    margin: 0 20px;
+
+}
+.btn {
+    user-select: none;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 25px;
+}
+.updowntext{
+    background-color:#e8e8e8;
+}
+
+.content-text-center {
+    padding: 0 10px;
+    flex-grow: 1;
+    width: 100%;
+}
+.citem5, .citem4 {
+    width: 160px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.marker {
+    margin-left: 400px;
+    font-size: 20px;
+}
+.ots{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.colorupdown{
+    background-color: #e8e8e8;
+}
